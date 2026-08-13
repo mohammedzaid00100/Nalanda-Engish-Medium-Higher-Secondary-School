@@ -1,1 +1,10 @@
+{
+  "name": "nalanda-school-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium neumorphic website redesign for Nalanda English Medium Hr. Sec. School – Bhilai.",
+  "scripts": {
+    "dev": "python -m http.server 8000"
+  }
+}
 
