@@ -1,0 +1,15 @@
+{
+  "principle":"Students are ordinarily admitted only at the beginning of the Academic year.",
+  "rules":[
+    "Applications for admission must be filled by the parents.",
+    "The student’s name and date of birth once entered cannot be altered thereafter.",
+    "Transfer certificates from districts other than Durg must be countersigned by the authorized Education Officer of the district.",
+    "Transfer Certificates from unrecognized schools will not be accepted."
+  ],
+  "minimumAge":[
+    {"stage":"Nursery","age":"Official age requirement to be confirmed"},
+    {"stage":"Pre-Primary I","age":"Official age requirement to be confirmed"},
+    {"stage":"Pre-Primary II","age":"Official age requirement to be confirmed"},
+    {"stage":"Other Classes","age":"Official requirement to be confirmed from latest admission guidelines"}
+  ]
+}

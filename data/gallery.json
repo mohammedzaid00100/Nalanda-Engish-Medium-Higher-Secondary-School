@@ -1,0 +1,8 @@
+[
+  {"title":"Campus Image 01","category":"Campus","src":"assets/images/gallery-01.jpg"},
+  {"title":"Academic Image 01","category":"Academics","src":"assets/images/gallery-02.jpg"},
+  {"title":"Sports Image 01","category":"Sports","src":"assets/images/gallery-03.jpg"},
+  {"title":"Facilities Image 01","category":"Facilities","src":"assets/images/gallery-04.jpg"},
+  {"title":"Events Image 01","category":"Events","src":"assets/images/gallery-05.jpg"},
+  {"title":"Activities Image 01","category":"Activities","src":"assets/images/gallery-06.jpg"}
+]

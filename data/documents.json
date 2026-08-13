@@ -1,0 +1,19 @@
+[
+  {"title":"Affiliation / Upgradation Letter","category":"Affiliation","status":"Placeholder","path":"docs/affiliation-letter.pdf"},
+  {"title":"Society / Trust Registration","category":"Governance","status":"Placeholder","path":"docs/society-registration.pdf"},
+  {"title":"No Objection Certificate (NOC)","category":"Certification","status":"Placeholder","path":"docs/noc.pdf"},
+  {"title":"Recognition Certificate","category":"Certification","status":"Placeholder","path":"docs/recognition-certificate.pdf"},
+  {"title":"Building Safety Certificate","category":"Safety","status":"Placeholder","path":"docs/building-safety.pdf"},
+  {"title":"Fire Safety Certificate","category":"Safety","status":"Placeholder","path":"docs/fire-safety.pdf"},
+  {"title":"School Affiliation Certificate","category":"Affiliation","status":"Placeholder","path":"docs/school-affiliation.pdf"},
+  {"title":"DEO Certificate","category":"Certification","status":"Placeholder","path":"docs/deo-certificate.pdf"},
+  {"title":"Water / Health / Sanitation Certificate","category":"Safety","status":"Placeholder","path":"docs/water-health-sanitation.pdf"},
+  {"title":"Fee Structure","category":"Academics","status":"Official document to be uploaded","path":"docs/fee-structure.pdf"},
+  {"title":"School Academic Calendar","category":"Academics","status":"Official document to be uploaded","path":"docs/academic-calendar.pdf"},
+  {"title":"School Management Committee","category":"Governance","status":"Official document to be uploaded","path":"docs/smc.pdf"},
+  {"title":"PTA Members","category":"Governance","status":"Official document to be uploaded","path":"docs/pta.pdf"},
+  {"title":"Three-Year Board Results","category":"Results","status":"Summary included; source PDF to be uploaded","path":"docs/three-year-results.pdf"},
+  {"title":"Teaching Staff Details","category":"Staff","status":"Official document to be uploaded","path":"docs/teaching-staff-details.pdf"},
+  {"title":"School Infrastructure","category":"Infrastructure","status":"Official document to be uploaded","path":"docs/infrastructure.pdf"},
+  {"title":"Book List","category":"Academics","status":"Official document to be uploaded","path":"docs/book-list.pdf"}
+]

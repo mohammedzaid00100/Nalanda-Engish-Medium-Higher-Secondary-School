@@ -1,0 +1,9 @@
+{
+  "stages":[
+    {"id":"early-years","title":"Early Years","items":["Nursery","Pre-Primary I","Pre-Primary II"]},
+    {"id":"school","title":"School Education","items":["Classes I–X"]},
+    {"id":"senior-secondary","title":"Senior Secondary","items":["Classes XI–XII"]}
+  ],
+  "subjects":["English","Hindi","Maths","Science","Social Science","Sanskrit","Drawing","Craft","Music","Dance","Physical Education","Computer Science","G.K.","Moral Science","Moral Education"],
+  "seniorSubjects":["English","Hindi","Physics","Chemistry","Mathematics","Biology","Business Studies","Accountancy","Economics"]
+}

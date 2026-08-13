@@ -1,0 +1,10 @@
+[
+  {"title":"Biology Lab","icon":"🧬","description":"Dedicated biology learning space listed in the school’s public-facing facilities."},
+  {"title":"Chemistry Lab","icon":"⚗","description":"Dedicated chemistry learning space listed in the school’s public-facing facilities."},
+  {"title":"Physics Lab","icon":"◉","description":"Dedicated physics learning space listed in the school’s public-facing facilities."},
+  {"title":"Computer Lab","icon":"⌘","description":"Computer learning facility supporting the school’s technology-focused education."},
+  {"title":"Library","icon":"▤","description":"Library facility listed by the school as part of its campus resources."},
+  {"title":"Smart Class","icon":"▣","description":"Smart-class learning environment listed among the school’s facilities."},
+  {"title":"Eco Club Room","icon":"♧","description":"Dedicated space listed for eco-club activities."},
+  {"title":"Sick Room","icon":"＋","description":"Campus sick-room facility listed in the school information."}
+]

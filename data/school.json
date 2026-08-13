@@ -1,0 +1,21 @@
+{
+  "name": "Nalanda English Medium Hr. Sec. School – Bhilai",
+  "shortName": "Nalanda",
+  "tagline": "Inspiring Young Minds. Building Strong Futures.",
+  "address": "Kurud, Bhilai, Durg, Chhattisgarh – 490024, India",
+  "affiliationNo": "3330217",
+  "schoolCode": "15176",
+  "principal": {"name":"Mr. Ashish Ghosal","qualification":"M.A., B.Ed."},
+  "email": "nalandaschool.kurud@gmail.com",
+  "phones": ["0788-4216647","0788-4216642","6266434635"],
+  "campusArea": "8,400 sq. m.",
+  "classrooms": 55,
+  "internetFacility": true,
+  "toilets": {"girls":25,"boys":25},
+  "history": {
+    "1978":"Kerala Cultural Association (KCA) was formed in the CGB colony with aims spanning cultural and social activity, education, discipline, character-building, physical development and cultural development.",
+    "1979":"Malinda Nursery School was established as the association’s educational initiative.",
+    "growth":"The institution developed into a higher-secondary school in Kurud and later operated as Nalanda English Medium Hr. Sec. School – Bhilai.",
+    "today":"The school is affiliated with the Central Board of Secondary Education, New Delhi, and prepares students for Class X and Class XII board examinations. Computer education is stated as being provided from Class III onwards."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "classX":[
+    {"year":2023,"registered":251,"passed":193,"percentage":76.89},
+    {"year":2024,"registered":235,"passed":175,"percentage":74.47},
+    {"year":2025,"registered":260,"passed":180,"percentage":69.23}
+  ],
+  "classXII":[
+    {"year":2023,"registered":128,"passed":82,"percentage":64.08},
+    {"year":2024,"registered":170,"passed":110,"percentage":65.29},
+    {"year":2025,"registered":186,"passed":140,"percentage":75.25}
+  ]
+}
