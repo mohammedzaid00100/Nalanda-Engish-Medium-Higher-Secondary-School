@@ -12,7 +12,7 @@ async function loadData(){
 }
 
 const links = [
-  ['Home','/'],['About','/about'],['Academics','/academics'],['Admissions','/admissions'],['Campus','/campus/facilities'],['Activites','/student-life'],['Disclosure','/disclosure'],['Rules','/rules-regulations'],['Contact','/contact']
+  ['Home','/'],['About','/about'],['Academics','/academics'],['Admissions','/admissions'],['Campus','/campus/facilities'],['Activities','/student-life'],['Disclosure','/disclosure'],['Rules','/rules-regulations'],['Contact','/contact']
 ];
 
 function layout(content){
