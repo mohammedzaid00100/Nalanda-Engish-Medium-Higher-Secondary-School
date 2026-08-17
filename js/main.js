@@ -18,7 +18,6 @@ const links = [
 function layout(content){
   document.title = `${currentTitle()} · Nalanda English Medium Hr. Sec. School – Bhilai`;
   return `
-  <div class="announcement"><div class="container"><div class="meta"><span>Admissions & Academic Information</span><span>Mandatory Public Disclosure</span></div><div class="meta"><a href="mailto:${DATA.school.email}">${DATA.school.email}</a><a href="tel:+917884216647">0788-4216647</a><span>Parent Portal — <strong>Official URL to be inserted</strong></span></div></div></div>
   <div class="nav-wrap"><nav class="container nav neu" aria-label="Primary navigation"><a class="brand" href="/"><span class="brand-mark" aria-hidden="true">N</span><span class="brand-copy"><strong>Nalanda English Medium Hr. Sec. School</strong><span>Bhilai · Kurud · Durg</span></span></a><div class="nav-links">${links.map(([t,h])=>`<a class="nav-link ${location.pathname===h?'active':''}" href="${h}">${t}</a>`).join('')}</div><a class="neu-btn primary nav-cta" href="/admissions">Admission Enquiry</a><button class="menu-btn" id="menu-open" aria-label="Open navigation">☰</button></nav></div>
   <aside class="mobile-drawer" id="mobile-drawer" aria-label="Mobile navigation"><button class="drawer-close" id="menu-close" aria-label="Close navigation">×</button>${links.map(([t,h])=>`<a class="drawer-link" href="${h}">${t}</a>`).join('')}<a class="neu-btn primary" href="/contact">Contact School</a></aside>
   <main id="app-content">${content}</main>
