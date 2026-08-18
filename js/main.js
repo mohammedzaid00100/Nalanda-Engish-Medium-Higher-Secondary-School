@@ -89,7 +89,7 @@ function bindGlobal(){
   $('#menu-close')?.addEventListener('click',()=>$('#mobile-drawer').classList.remove('open'));
   $$('.accordion-trigger').forEach(b=>b.addEventListener('click',()=>{const item=b.closest('.accordion-item');item.classList.toggle('open');b.querySelector('span').textContent=item.classList.contains('open')?'−':'+'}));
   $$('.tab[data-tab]').forEach(b=>b.addEventListener('click',()=>{const key=b.dataset.tab; $$('.tab[data-tab]').forEach(x=>x.classList.toggle('active',x.dataset.tab===key)); $$('.tab-panel').forEach(x=>x.classList.toggle('active',x.dataset.panel===key))}));
-  $$('form[data-form]').forEach(form=>form.addEventListener('submit',e=>{e.preventDefault();const s=$('.status',form);if(!form.checkValidity()){s.className='status show err';s.textContent='Please complete the required fields.';return;}s.className='status show ok';s.textContent='Form validated locally. Connect this form to the school’s approved backend before live submission.';form.reset()}));
+  $$('form[data-form]').forEach(form=>form.addEventListener('submit',e=>{e.preventDefault();const s=$('.status',form);if(!form.checkValidity()){s.className='status show err';s.textContent='Please complete the required fields.';return;}s.className='status show ok';s.textContent='OOPS SORRY! Connect to endpoint first.';form.reset()}));
   $('#lightbox-close')?.addEventListener('click',()=>closeLightbox());$('#lightbox')?.addEventListener('click',e=>{if(e.target.id==='lightbox')closeLightbox()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLightbox()},{once:true});
 }
 function bindPage(path){
