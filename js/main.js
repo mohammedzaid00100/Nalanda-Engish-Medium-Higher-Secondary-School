@@ -45,7 +45,7 @@ routes['/'] = () => `<div class="hero"><div class="container hero-grid"><div cla
     src="https://www.google.com/maps?q=21.2389754,81.367446&output=embed"
     width="100%"
     height="290"
-    style="border:0; border-radius:18px;"
+    style="border:0; border-radius:40px;"
     loading="lazy"
     referrerpolicy="no-referrer-when-downgrade"
     title="Nalanda English Medium Hr. Sec. School location map">
