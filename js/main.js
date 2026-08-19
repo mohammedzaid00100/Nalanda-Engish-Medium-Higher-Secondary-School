@@ -40,15 +40,31 @@ routes['/'] = () => `<div class="hero"><div class="container hero-grid"><div cla
 <section class="section"><div class="container"><div class="section-heading"><div class="kicker">Facilities</div><h2>Focused spaces for focused learning.</h2></div><div class="grid-4">${DATA.facilities.slice(0,8).map(f=>`<article class="card neu facility"><div class="icon">${f.icon}</div><h3>${f.title}</h3><p>${f.description}</p></article>`).join('')}</div><div style="margin-top:20px"><a class="neu-btn" href="/campus/facilities">Explore Facilities →</a></div></div></section>
 <section class="section tight"><div class="container split"><div class="copy"><div class="kicker">Admissions</div><h3>A direct path from enquiry to information.</h3><p>Admission rules are presented from the school’s published guidance. Unverified age criteria, dates and workflow steps are deliberately left as placeholders.</p><a class="neu-btn primary" href="/admissions">View Admission Guidelines →</a></div><div class="card neu"><div class="notice"><div class="icon">!</div><div><h3 style="margin-top:0">At a glance</h3><p>${DATA.admissions.principle}</p></div></div></div></div></section>
 <section class="section"><div class="container"><div class="section-heading"><div class="kicker">Published Board Results</div><h2>Three years of reported outcomes.</h2></div><div id="home-results"></div></div></section>
-<section class="section tight"><div class="container split"><div class="card neu"><div class="kicker">Mandatory Public Disclosure</div><h3>Documents, records and school information in one place.</h3><p>The public disclosure structure is designed as an official-looking document centre, while missing source PDFs remain clearly marked as placeholders.</p><a class="neu-btn secondary" href="/disclosure">Open Disclosure Centre →</a></div><div class="map-placeholder neu"><div class="map-inner"><div><strong>Map area</strong><div class="map-placeholder neu" style="position:relative; min-height:330px; height:330px; padding:0; overflow:hidden; display:block;">
+<section class="section tight"><div class="container split"><div class="card neu"><div class="kicker">Mandatory Public Disclosure</div><h3>Documents, records and school information in one place.</h3><p>The public disclosure structure is designed as an official-looking document centre, while missing source PDFs remain clearly marked as placeholders.</p><a class="neu-btn secondary" href="/disclosure">Open Disclosure Centre →</a></div><div class="map-placeholder neu"><div class="map-inner"><div><strong>Map area</strong><div class="map-placeholder neu"
+     style="width:100%; min-width:0; height:330px; padding:0; overflow:hidden; position:relative; display:block;">
+
   <iframe
     src="https://www.google.com/maps?q=21.2389754,81.367446&z=17&output=embed"
-    style="position:absolute; inset:0; width:100%; height:100%; border:0; display:block;"
+    title="Nalanda English Medium Hr. Sec. School location map"
     loading="lazy"
     allowfullscreen
     referrerpolicy="no-referrer-when-downgrade"
-    title="Nalanda English Medium Hr. Sec. School location map">
+    style="
+      display:block;
+      position:absolute;
+      top:0;
+      left:0;
+      width:100% !important;
+      min-width:100% !important;
+      max-width:none !important;
+      height:100% !important;
+      min-height:100%;
+      border:0;
+      margin:0;
+      padding:0;
+    ">
   </iframe>
+
 </div></div></div></div></div></section>
 <section class="section tight"><div class="container neu" style="padding:28px"><div class="section-heading" style="margin-bottom:16px"><div class="kicker">Latest Updates</div><h2 style="font-size:2rem">Notice architecture is ready.</h2><p>No live announcements are invented here. Add official circulars, notices and school updates through the structured content layer.</p></div><div class="callout">[Add official school notice here]</div></div></section>`;
 
